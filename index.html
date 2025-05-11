@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Text Compare</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
-    <h1>Hello world</h1>
+<body class="main-font">
+    <section class="main-section">
+        <h1 class="text_title">Text comparator</h1>
+        <div class="content">
+            <div class="indicating-section">
+                <div class="match-box same-compare">
+                    <h4 class="compare_title">Compare</h4>
+                    <p class="matching_indicator all-indicators">0 match</p>
+                </div>
+                <div class="length-box same-compare">
+                    <h4 class="compare_title">Compare</h4>
+                    <p class="length_indicator all-indicators">0 length difference</p>
+                </div>
+                <div class="word-box same-compare">
+                    <h4 class="compare_title">Compare</h4>
+                    <p class="word_indicator all-indicators">10 word difference</p>
+                </div>
+            </div>
+            <div class="joke-card-left">
+                <h3 class="card_title">Left Joke</h3>
+                <p class="joke_paragraph left_joke_par"></p>
+                <button class="generate_btn left_generator">Generate</button>
+            </div>
+            <div class="joke-card-right">
+                <h3 class="card_title">Right Joke</h3>
+                <p class="joke_paragraph right_joke_par"></p>
+                <button class="generate_btn right_generator">Generate</button>
+            </div>           
+        </div>
+    </section>
+
+    <script src="scripts/app.js"></script>
 </body>
 </html>
